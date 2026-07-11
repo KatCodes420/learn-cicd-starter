@@ -21,8 +21,6 @@ type apiConfig struct {
 	DB *database.Queries
 }
 
-func unused() {
-}
 
 var staticFiles embed.FS
 
