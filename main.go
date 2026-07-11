@@ -21,7 +21,6 @@ type apiConfig struct {
 	DB *database.Queries
 }
 
-
 var staticFiles embed.FS
 
 func main() {
