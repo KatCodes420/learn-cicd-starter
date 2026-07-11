@@ -21,13 +21,9 @@ type apiConfig struct {
 	DB *database.Queries
 }
 
-//go:embed static/*
+
 var staticFiles embed.FS
 
-func unused() {
-
-	
-}
 
 func main() {
 	err := godotenv.Load(".env")
